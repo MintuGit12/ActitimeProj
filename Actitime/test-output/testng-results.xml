@@ -20,44 +20,44 @@
       <![CDATA[logout]]>
     </line>
   </reporter-output>
-  <suite started-at="2022-09-10T08:48:58 IST" name="Suite" finished-at="2022-09-10T08:49:49 IST" duration-ms="50510">
+  <suite started-at="2022-09-10T08:52:39 IST" name="Default suite" finished-at="2022-09-10T08:53:09 IST" duration-ms="29299">
     <groups>
     </groups>
-    <test started-at="2022-09-10T08:48:58 IST" name="Test" finished-at="2022-09-10T08:49:49 IST" duration-ms="50510">
+    <test started-at="2022-09-10T08:52:39 IST" name="Default test" finished-at="2022-09-10T08:53:09 IST" duration-ms="29299">
       <class name="com.actitme.testscript.CreateCustomer">
-        <test-method is-config="true" signature="openBrowser()[pri:0, instance:com.actitme.testscript.CreateCustomer@15c43bd9]" started-at="2022-09-10T08:48:58 IST" name="openBrowser" finished-at="2022-09-10T08:49:00 IST" duration-ms="2109" status="PASS">
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:com.actitme.testscript.CreateCustomer@15c43bd9]" started-at="2022-09-10T08:52:39 IST" name="openBrowser" finished-at="2022-09-10T08:52:40 IST" duration-ms="1213" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[open-Brouser]]>
             </line>
           </reporter-output>
         </test-method> <!-- openBrowser -->
-        <test-method is-config="true" signature="login()[pri:0, instance:com.actitme.testscript.CreateCustomer@15c43bd9]" started-at="2022-09-10T08:49:00 IST" name="login" finished-at="2022-09-10T08:49:14 IST" duration-ms="13826" status="PASS">
+        <test-method is-config="true" signature="login()[pri:0, instance:com.actitme.testscript.CreateCustomer@15c43bd9]" started-at="2022-09-10T08:52:40 IST" name="login" finished-at="2022-09-10T08:52:59 IST" duration-ms="18941" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[login]]>
             </line>
           </reporter-output>
         </test-method> <!-- login -->
-        <test-method signature="testCreateCustomer()[pri:0, instance:com.actitme.testscript.CreateCustomer@15c43bd9]" started-at="2022-09-10T08:49:14 IST" name="testCreateCustomer" finished-at="2022-09-10T08:49:46 IST" duration-ms="31810" status="FAIL">
-          <exception class="org.openqa.selenium.ElementNotInteractableException">
+        <test-method signature="testCreateCustomer()[pri:0, instance:com.actitme.testscript.CreateCustomer@15c43bd9]" started-at="2022-09-10T08:52:59 IST" name="testCreateCustomer" finished-at="2022-09-10T08:53:06 IST" duration-ms="6300" status="FAIL">
+          <exception class="org.openqa.selenium.ElementClickInterceptedException">
             <message>
-              <![CDATA[element not interactable
+              <![CDATA[element click intercepted: Element <div id="container_tasks"></div> is not clickable at point (630, 45). Other element would receive the click: <div id="preInsertedTransformedMoireId" class="transformedMoireClass" style="transition: opacity 600ms ease-in-out 0s; opacity: 0;"></div>
   (Session info: chrome=105.0.5195.102)
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
 System info: host: 'DESKTOP-IHIJH93', ip: '192.168.1.185', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.102, chrome: {chromedriverVersion: 104.0.5112.79 (3cf3e8c8a07d..., userDataDir: C:\Users\Adarsh\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:50372}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 5ee238ddfaf3ce67aef475df5f840526]]>
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.102, chrome: {chromedriverVersion: 104.0.5112.79 (3cf3e8c8a07d..., userDataDir: C:\Users\Adarsh\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:50416}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 73f2235e90947e3d4349475f46224931]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.ElementNotInteractableException: element not interactable
+              <![CDATA[org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <div id="container_tasks"></div> is not clickable at point (630, 45). Other element would receive the click: <div id="preInsertedTransformedMoireId" class="transformedMoireClass" style="transition: opacity 600ms ease-in-out 0s; opacity: 0;"></div>
   (Session info: chrome=105.0.5195.102)
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
 System info: host: 'DESKTOP-IHIJH93', ip: '192.168.1.185', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.102, chrome: {chromedriverVersion: 104.0.5112.79 (3cf3e8c8a07d..., userDataDir: C:\Users\Adarsh\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:50372}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 5ee238ddfaf3ce67aef475df5f840526
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.102, chrome: {chromedriverVersion: 104.0.5112.79 (3cf3e8c8a07d..., userDataDir: C:\Users\Adarsh\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:50416}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 73f2235e90947e3d4349475f46224931
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
 at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -77,7 +77,8 @@ at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(Delegating
 at java.base/java.lang.reflect.Method.invoke(Method.java:568)
 at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
 at jdk.proxy2/jdk.proxy2.$Proxy15.click(Unknown Source)
-at com.actitme.testscript.CreateCustomer.testCreateCustomer(CreateCustomer.java:51)
+at com.actitime.pom.EnterTimeTrackPage.setTaskTab(EnterTimeTrackPage.java:21)
+at com.actitme.testscript.CreateCustomer.testCreateCustomer(CreateCustomer.java:32)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -108,7 +109,7 @@ at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 ]]>
             </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.ElementNotInteractableException -->
+          </exception> <!-- org.openqa.selenium.ElementClickInterceptedException -->
           <reporter-output>
             <line>
               <![CDATA[HDFC_001]]>
@@ -121,15 +122,15 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
             </line>
           </reporter-output>
         </test-method> <!-- testCreateCustomer -->
-        <test-method is-config="true" signature="logout()[pri:0, instance:com.actitme.testscript.CreateCustomer@15c43bd9]" started-at="2022-09-10T08:49:49 IST" name="logout" finished-at="2022-09-10T08:49:49 IST" duration-ms="43" status="FAIL">
+        <test-method is-config="true" signature="logout()[pri:0, instance:com.actitme.testscript.CreateCustomer@15c43bd9]" started-at="2022-09-10T08:53:08 IST" name="logout" finished-at="2022-09-10T08:53:09 IST" duration-ms="21" status="FAIL">
           <exception class="org.openqa.selenium.NoSuchSessionException">
             <message>
               <![CDATA[invalid session id
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
 System info: host: 'DESKTOP-IHIJH93', ip: '192.168.1.185', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.102, chrome: {chromedriverVersion: 104.0.5112.79 (3cf3e8c8a07d..., userDataDir: C:\Users\Adarsh\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:50372}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 5ee238ddfaf3ce67aef475df5f840526
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.102, chrome: {chromedriverVersion: 104.0.5112.79 (3cf3e8c8a07d..., userDataDir: C:\Users\Adarsh\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:50416}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 73f2235e90947e3d4349475f46224931
 *** Element info: {Using=id, value=logoutLink}]]>
             </message>
             <full-stacktrace>
@@ -137,8 +138,8 @@ Session ID: 5ee238ddfaf3ce67aef475df5f840526
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
 System info: host: 'DESKTOP-IHIJH93', ip: '192.168.1.185', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.102, chrome: {chromedriverVersion: 104.0.5112.79 (3cf3e8c8a07d..., userDataDir: C:\Users\Adarsh\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:50372}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 5ee238ddfaf3ce67aef475df5f840526
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.102, chrome: {chromedriverVersion: 104.0.5112.79 (3cf3e8c8a07d..., userDataDir: C:\Users\Adarsh\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:50416}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 73f2235e90947e3d4349475f46224931
 *** Element info: {Using=id, value=logoutLink}
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
@@ -202,11 +203,11 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
             </line>
           </reporter-output>
         </test-method> <!-- logout -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.actitme.testscript.CreateCustomer@15c43bd9]" started-at="2022-09-10T08:49:49 IST" name="closeBrowser" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1662779989219" status="SKIP">
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.actitme.testscript.CreateCustomer@15c43bd9]" started-at="2022-09-10T08:53:09 IST" name="closeBrowser" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1662780189022" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
       </class> <!-- com.actitme.testscript.CreateCustomer -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
